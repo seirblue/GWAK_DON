@@ -271,7 +271,7 @@ body {
       /* glass */
       box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.25);
       backdrop-filter: blur(5px);
-      &:hover{
+      &:hover {
         background: #fff;
       }
 
@@ -471,7 +471,6 @@ body {
       .intro-inner {
         // display: none;
         @include tablet() {
-          
           .pic {
             img {
               transform: scale(0.5);
@@ -485,10 +484,10 @@ body {
           }
         }
         .pic {
-          // flex-basis: 1;
+          flex-shrink: 1;
           img {
-            width: 100%;
-            height: 100%;
+            width: 80%;
+            height: 80%;
             transition: 0.5s;
 
             @include mobile() {
@@ -497,43 +496,90 @@ body {
           }
         }
 
+        .desc {
+          text-align: center;
+          width: fit-content;
+          margin: 0 auto;
+          transition: 0.4s;
+        }
+        .text-sub {
+          @include mobile() {
+            margin-bottom: 60px;
+          }
+        }
         .text-sub2 {
           width: fit-content;
+          p {
+            line-height: 150% !important;
+            transition: 0.4s linear;
+            span.highlight {
+              font-size: 22px;
+              font-weight: 600;
+              @include mobile() {
+                color: #06c;
+                text-shadow: 0px 0px 1px rgba($color: #000000, $alpha: 0.3);
+                transition: 0.4s;
+              }
+              @include tablet(){
+                color: rgb(0, 150, 67);
+                text-shadow: 0px 0px 1px rgba($color: #000000, $alpha: 0.3);
+              }
+              @include laptop(){
+                color: #333;
+                text-shadow: 0px 0px 1px rgba($color: #000000, $alpha: 0.3);
+              }
+              @include desktop(){
+                color: #000;
+                text-shadow: 0px 0px 1px rgba($color: #000000, $alpha: 0.3);
+              }
+            }
+            span.block {
+              @include mobile() {
+                display: inline-block;
+              }
+              @include tablet() {
+                display: inline-block;
+              }
+              @include desktop() {
+                display: inline;
+              }
+            }
+          }
         }
       }
     }
-    .gb2-2{
-        visibility: hidden;
-      .intro-inner2{
+    .gb2-2 {
+      visibility: hidden;
+      .intro-inner2 {
         height: 70%;
         display: flex;
         justify-content: center;
         align-items: center;
-        ul{
+        ul {
           display: flex;
           justify-content: center;
           align-items: center;
           gap: 50px;
           transition: 0.4s;
-          @include mobile(){
+          @include mobile() {
             margin-top: 180px;
             margin-left: 40px;
             flex-direction: column;
             gap: 10px;
           }
-          li{
+          li {
             width: 100px;
             height: 100px;
-            img{
+            img {
               width: 100%;
               height: 100%;
               transition: 0.4s;
               filter: saturate(60%);
-              &:hover{
+              &:hover {
                 transform: scale(1.15);
                 filter: saturate(100%);
               }
-              @include mobile(){
+              @include mobile() {
                 width: 60%;
                 height: 60%;
               }
@@ -652,7 +698,7 @@ body {
             }
             p.two {
               @include sub-text2;
-              &:hover{
+              &:hover {
                 text-decoration: underline;
               }
             }
@@ -681,7 +727,7 @@ body {
             }
             p.two {
               @include sub-text2;
-              &:hover{
+              &:hover {
                 text-decoration: underline;
               }
             }
@@ -707,26 +753,30 @@ body {
           align-items: center;
           text-align: center;
           gap: 20px;
-          p.one, p.two{
+          p.one,
+          p.two {
             @include sub-text2();
             color: rgba(0, 0, 0, 0.4);
             font-weight: bold;
             transition: 0.4s;
           }
-          p.one, p.two{
-            @include mobile(){
+          p.one,
+          p.two {
+            @include mobile() {
               font-size: 18px;
               color: rgba(0, 0, 0, 0.4);
             }
           }
-          p.one, p.two{
-            @include tablet(){
+          p.one,
+          p.two {
+            @include tablet() {
               font-size: 20px;
               color: rgba(0, 0, 0, 0.4);
             }
           }
-          p.one, p.two{
-            @include laptop(){
+          p.one,
+          p.two {
+            @include laptop() {
               font-size: 26px;
               color: rgba(0, 0, 0, 0.4);
             }
