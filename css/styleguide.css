@@ -1,0 +1,26 @@
+:root {
+    --pdf: rgba(106, 106, 106, 1);
+    --highlight: rgba(255, 212, 173, 0.3);
+    --box: rgba(255, 141, 141, 1);
+    --box-in: rgba(217, 217, 217, 0);
+    --fillstertiary: rgba(118, 118, 128, 0.12);
+    --labelsprimary: rgba(0, 0, 0, 1);
+    --labelsprimary-dark: rgba(255, 255, 255, 1);
+    --fillstertiary-dark: rgba(118, 118, 128, 0.24);
+    --pdf-font-family: "NanumDaHaengCe-Regular", Helvetica;
+    --pdf-font-weight: 400;
+    --pdf-font-size: 36px;
+    --pdf-letter-spacing: 0px;
+    --pdf-line-height: normal;
+    --pdf-font-style: normal;
+    --SF-pro-font-family: "SFPro-Regular", Helvetica;
+    --SF-pro-font-weight: 400;
+    --SF-pro-font-size: 36px;
+    --SF-pro-letter-spacing: 0px;
+    --SF-pro-line-height: normal;
+    --SF-pro-font-style: normal;
+    --glass: 0px 10px 10px 0px rgba(0, 0, 0, 0.25);
+    --clay: 0px 10px 30px 0px rgba(249, 156, 112, 0.3);
+    --variable-collection-4966ff: rgba(73, 102, 255, 1);
+  }
+  

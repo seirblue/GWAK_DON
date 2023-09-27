@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/swiper-bundle.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/swiper-bundle.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/index.js"></script>
+    <title>Monami</title>
+</head>
+<body>
+    <div id="wrap">
+        <div class="top">
+            <div class="top-inner">
+                <div class="topmenu">
+                    <ul class="left">
+                        <li>
+                            <ul class="lang">
+                                <li><img src="images/lang_kor.gif" alt="kor"></li>
+                                <li><span>KOR</span></li>
+                                <li><a href="#"><img src="images/lang_arr.gif" alt="arr"></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="sns">
+                                <li><a href="#"><img src="images/sns_facebook.gif" alt="facebook"></a></li>
+                                <li><a href="#"><img src="images/sns_insta.gif" alt="instagram"></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                        <ul class="right">
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="#">SITE MAP</a></li>
+                            <li><a href="#">CONTACT US</a></li>
+                        </ul>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html"><img src="images/logo.jpg" alt="logo"></a></li>
+                    <li>
+                        <ul class="text">
+                            <li class="first">
+                                <a href="info.html">모나미소개</a>
+                                <ul class="sub">
+                                    <li><a href="info.html">CEO 메세지</a></li>
+                                    <li><a href="#">회사정보</a></li>
+                                    <li><a href="#">회사연혁</a></li>
+                                    <li><a href="#">윤리강령</a></li>
+                                    <li><a href="#">투자정보</a></li>
+                                    <li><a href="#">CI</a></li>
+                                    <li><a href="#">채용정보</a></li>
+                                    <li><a href="#">찾아오시는 길</a></li>
+                                </ul>
+                            </li>
+                            <li class="second">
+                                <a href="product.html">모나미제품</a>
+                                <ul class="sub">
+                                    <li><a href="#">펜</a></li>
+                                    <li><a href="#">마카</a></li>
+                                    <li><a href="#">형광펜</a></li>
+                                    <li><a href="#">미술용품</a></li>
+                                    <li><a href="#">기타</a></li>
+                                    <li><a href="#">카탈로그</a></li>
+                                </ul>
+                            </li>
+                            <li class="third">
+                                <a href="#">NEWS & VIDEO</a>
+                                <ul class="sub">
+                                    <li><a href="#">보도자료</a></li>
+                                    <li><a href="#">동영상자료</a></li>
+                                </ul>
+                            </li>
+                            <li class="four">
+                                 <a href="#">모나미 미술대회</a>
+                                <ul class="sub">
+                                    <li><a href="#">미술대회 소개</a></li>
+                                    <li><a href="#">수상작 발표</a></li>
+                                </ul>
+                             </li>
+                            <li class="five">
+                                <a href="#">고객지원</a>
+                                <ul class="sub">
+                                    <li><a href="#">자주묻는질문</a></li>
+                                    <li><a href="#">문의하기</a></li>
+                                    <li><a href="#">이벤트</a></li>
+                                </ul>
+                            </li>
+                            <li class="six">
+                                <a href="#">기업 구매 / 개발</a>
+                                <ul class="sub">
+                                    <li><a href="#">대량 구매 문의</a></li>
+                                    <li><a href="#">기업 및 단체 구매</a></li>
+                                    <li><a href="#">산업용 맞춤 제품개발</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="btn">
+                            <li><a href="#"><img src="images/btn_search.gif" alt="search"></a></li>
+                            <li id="menu"><a href="#"><img src="images/btn_all.png" alt="all"></a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div id="bg" class="bg"></div>
+            </nav>
+            <!-- <div id="menu-all">
+                <ul class="menu-all-box">
+                    <li>
+                        <a href="#">모나미소개</a>
+                        <ul>
+                            <li><a href="#">CEO 메세지</a></li>
+                            <li><a href="#">회사정보</a></li>
+                            <li><a href="#">회사연혁</a></li>
+                            <li><a href="#">윤리강령</a></li>
+                            <li><a href="#">투자정보</a></li>
+                            <li><a href="#">CI</a></li>
+                            <li><a href="#">채용정보</a></li>
+                            <li><a href="#">찾아오시는 길</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">모나미제품</a>
+                        <ul>
+                            <li><a href="#">펜</a></li>
+                            <li><a href="#">마카</a></li>
+                            <li><a href="#">형광펜</a></li>
+                            <li><a href="#">미술용품</a></li>
+                            <li><a href="#">기타</a></li>
+                            <li><a href="#">카탈로그</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">NEWS & VIDEO</a>
+                        <ul>
+                            <li><a href="#">보도자료</a></li>
+                            <li><a href="#">동영상자료</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                         <a href="#">모나미 미술대회</a>
+                        <ul>
+                            <li><a href="#">미술대회 소개</a></li>
+                            <li><a href="#">수상작 발표</a></li>
+                        </ul>
+                     </li>
+                    <li>
+                        <a href="#">고객지원</a>
+                        <ul>
+                            <li><a href="#">자주묻는질문</a></li>
+                            <li><a href="#">문의하기</a></li>
+                            <li><a href="#">이벤트</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">기업 구매 / 개발</a>
+                        <ul>
+                            <li><a href="#">대량 구매 문의</a></li>
+                            <li><a href="#">기업 및 단체 구매</a></li>
+                            <li><a href="#">산업용 맞춤 제품개발</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div> -->
+        </div>
+        <div id="contents">
+            <div class="visual">
+                <div class="text-area">
+                    <h3>어쩌면 삶은<br>
+                        인생이라는 종이 위에<br>
+                        써 내려가는<br>
+                        펜의 기록 같습니다.</h3>
+                        <p>그중에서도 지우고 싶지 않은 기록이 있습니다.<br>
+                            모나미는 언제나 당신의 행복한 기록과 함께 합니다.</p>
+                </div>
+            </div>
+            <div class="product1">
+                <div class="preview">
+                    <ul>
+                        <li>
+                            <ul class="pre-top">
+                                <li>
+                                    <ul class="box1">
+                                        <li>
+                                            <div class="title">
+                                                <h2>NEW<br>
+                                                    ARRIVALS</h2>
+                                                <p>가장 먼저 만나는 설레는 기다림</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="images/file1_16808473398fw5rpdhq0.jpg" alt="img01"></a>
+                                            <div class="colorbox">
+                                                <div class="colorinner">
+                                                    <div class="desc">
+                                                        <p>SHARP</p>
+                                                        <p>그리픽스 팝 샤프</p>
+                                                    </div>
+                                                    <div class="plus-btn">
+                                                        <div class="x"></div>
+                                                        <div class="y"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <div class="color-m">
+                                        <a href="#"><img src="images/file1_1661135519u41sgoimnu.jpg" alt="img01"></a>
+                                        <div class="colorbox">
+                                            <div class="colorinner">
+                                                <div class="desc">
+                                                    <p>NOTE</p>
+                                                    <p>지퀀스</p>
+                                                </div>
+                                                <div class="plus-btn">
+                                                    <div class="x"></div>
+                                                    <div class="y"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="pre-bottom">
+                                <li>
+                                    <a href="#"><img src="images/file1_1671497662ma9ircnaaj.jpg" alt="img01"></a>
+                                    <div class="colorbox">
+                                        <div class="colorinner">
+                                            <div class="desc">
+                                                <p>HIGHLIGHTER</p>
+                                                <p>그랑데 형광펜 604</p>
+                                            </div>
+                                            <div class="plus-btn">
+                                                <div class="x"></div>
+                                                <div class="y"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/file1_1681087061mb8i5l6zdx.jpg" alt="img01"></a>
+                                    <div class="colorbox">
+                                        <div class="colorinner">
+                                            <div class="desc">
+                                                <p>FOUNTAIN PEN</p>
+                                                <p>153 아이디 만년필</p>
+                                            </div>
+                                            <div class="plus-btn">
+                                                <div class="x"></div>
+                                                <div class="y"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/file1_1629263969hla59mlwz0.jpg" alt="img01"></a>
+                                    <div class="colorbox">
+                                        <div class="colorinner">
+                                            <div class="desc">
+                                                <p>SHARP</p>
+                                                <p>클리키</p>
+                                            </div>
+                                            <div class="plus-btn">
+                                                <div class="x"></div>
+                                                <div class="y"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="product2">
+                <div class="pro-top2">
+                    <div class="title-box">
+                        <h1>BEST PRODUCT</h1>
+                        <span>언제 어디서나 생활 속에 함께하는 모나미</span>
+                    </div>
+                    <div class="button">
+                        <input type="radio" name="best" id="pen" checked>
+                        <input type="radio" name="best" id="marker">
+                        <input type="radio" name="best" id="highlight">
+                        <input type="radio" name="best" id="art">
+                        <ul>
+                            <li><label for="pen">펜</label></li>
+                            <li><label for="marker">마카</label></li>
+                            <li><label for="highlight">형광펜</label></li>
+                            <li><label for="art">미술용품</label></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="pro-middle swiper mySwiper mySwiper1">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/2040048020_file6_1681086837wink3y4zfr.jpg" alt="153 아이디 만년필"></a>
+                            <p><span class="sub-text">만년필</span><br><span class="main-text">153 아이디 만년필</span></p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/2010152034_file6_1639639980jngius8r6i.jpg" alt="FX ZETA C3"></a>
+                            <p><span class="sub-text">유성볼펜</span><br><span class="main-text">FX ZETA C3</span></p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/2010030001_file6_1635127393stijdjvr99.jpg" alt="제니스7"></a>
+                            <p><span class="sub-text">유성볼펜</span><br><span class="main-text">제니스7</span></p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/2040048012_file6_1583298386d4wy0fw22t.jpg" alt="153 네오 만년필 EF"></a>
+                            <p><span class="sub-text">만년필</span><br><span class="main-text">153 네오 만년필 EF</span></p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/8801067279536_file6_1552954140c5bul606gc.jpg" alt="FX 153"></a>
+                            <p><span class="sub-text">FX 153</span><br><span class="main-text">FX 153</span></p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/2010129001_file6_1584059663fxku9xz5t3.jpg" alt="FX ZETA"></a>
+                            <p><span class="sub-text">유성볼펜</span><br><span class="main-text">FX ZETA</span></p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/2010209001_file6_15106474920b1lr1fhnf.jpg" alt="153 블랙 & 화이트"></a>
+                            <p><span class="sub-text">프리미엄펜</span><br><span class="main-text">153 블랙 & 화이트</span></p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/0file6_15106488276b3copnqua.jpg" alt="153 골드"></a>
+                            <p><span class="sub-text">프리미엄펜</span><br><span class="main-text">153 골드</span></p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/2010204001_file6_1510645904wfwu2dzbh8.jpg" alt="153 아이디"></a>
+                            <p><span class="sub-text">프리미엄펜</span><br><span class="main-text">153 아이디</span></p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/_2040012000_file6_1581983504aiqk5l95cs.jpg" alt="153 아이디"></a>
+                            <p><span class="sub-text">프리미엄펜</span><br><span class="main-text">60주년 프러스펜 3000 데스크펜 스페셜 에디션</span></p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/2010132410_file6_15790764605c7doj31ui.jpg" alt="BP 153"></a>
+                            <p><span class="sub-text">유성볼펜</span><br><span class="main-text">BP 153</span></p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/8801067279666_file6_1560318301uus3cx2ahq.jpg" alt="FX 700"></a>
+                            <p><span class="sub-text">FX 700</span><br><span class="main-text">FX 700</span></p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/2119999030_file6_1519117790trkf7urf4d.jpg" alt="모나미 병잉크"></a>
+                            <p><span class="sub-text">만년필</span><br><span class="main-text">모나미 병잉크</span></p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/2100013001_file6_1510646729quxjpnwxv2.jpg" alt="153 아이디 샤프"></a>
+                            <p><span class="sub-text">프리미엄펜</span><br><span class="main-text">153 아이디 샤프</span></p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/2010207001_file6_15106464990pucf68uao.jpg" alt="153 네오"></a>
+                            <p><span class="sub-text">프리미엄펜</span><br><span class="main-text">153 네오</span></p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/2010205004_file6_15106462368v88izo2ui.jpg" alt="153 리스펙트"></a>
+                            <p><span class="sub-text">프리미엄펜</span><br><span class="main-text">153 리스펙트</span></p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/2010140002_file6_15106384267vjvyyrysz.jpg" alt="153 스틱"></a>
+                            <p><span class="sub-text">유성볼펜</span><br><span class="main-text">153 스틱</span></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="pro-middle swiper mySwiper mySwiper2">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/2040001255_file6_1649204802j4iszv1mjt.jpg" alt="사인펜 슈퍼 파스텔 12색"></a>
+                            <p><span class="sub-text">수성마카</span><br><span class="main-text">사인펜 슈퍼 파스텔 12색</span></p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/2040240006_file6_16255408900kpz876plz.jpg" alt="프러스펜 3000 피그먼트"></a>
+                            <p><span class="sub-text">수성마카</span><br><span class="main-text">프러스펜 3000 피그먼트</span></p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/2040016351_file6_16334947342g3aqx0uh1.jpg" alt="라이브 칼라(화이트 축)"></a>
+                            <p><span class="sub-text">수성 마카</span><br><span class="main-text">라이브 칼라(화이트 축)</span></p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/2041019049_file6_1659673523b6tw8za4y1.jpg" alt="프러스펜 3000 60색 세트"></a>
+                            <p><span class="sub-text">수성마카</span><br><span class="main-text">프러스펜 3000 60색 세트</span></p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/2040002001_file6_15867537131mu8wvyj4p.jpg" alt="워터 리얼 브러쉬"></a>
+                            <p><span class="sub-text">워터브러쉬</span><br><span class="main-text">워터 리얼 브러쉬</span></p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/2040005001_file6_1585872127mz32ryzzpt.jpg" alt="컬러 리얼 브러쉬"></a>
+                            <p><span class="sub-text">수성마카</span><br><span class="main-text">컬러 리얼 브러쉬</span></p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/2040012004_file6_161526431756qs7ja5jo.jpg" alt="붓펜 12색 세트"></a>
+                            <p><span class="sub-text">수성마카</span><br><span class="main-text">붓펜 12색 세트</span></p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/2040009001_file6_1552521391bpvzh1xb2b.jpg" alt="컬러 트윈 브러쉬"></a>
+                            <p><span class="sub-text">수성펜</span><br><span class="main-text">컬러 트윈 브러쉬</span></p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/2080016001_file6_16643427030pyhbwjv64.jpg" alt="세라믹마카 480 / 482"></a>
+                            <p><span class="sub-text">생활마카</span><br><span class="main-text">세라믹마카 480 / 482</span></p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/2040016001_file6_1510666502k9r1vd5yqm.jpg" alt="라이브 칼라 DIY"></a>
+                            <p><span class="sub-text">수성마카</span><br><span class="main-text">라이브 칼라 DIY</span></p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/2040038001_file6_15106651751ln83qs873.jpg" alt="프러스펜 S / 리필심"></a>
+                            <p><span class="sub-text">수성마카</span><br><span class="main-text">프러스펜 S / 리필심</span></p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/2040003711_file6_1662537642f4wn84wf9f.jpg" alt="프러스펜 3000"></a>
+                            <p><span class="sub-text">수성마카</span><br><span class="main-text">프러스펜 3000</span></p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/2040036001_file6_15106646665s12s79w80.jpg" alt="어데나"></a>
+                            <p><span class="sub-text">수성마카</span><br><span class="main-text">어데나</span></p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/2050005201_file6_1510663968g58w2fmisb.jpg" alt="패브릭마카 470"></a>
+                            <p><span class="sub-text">생활마카</span><br><span class="main-text">패브릭마카 470</span></p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/2040034001_file6_1510663815loff0bl2in.jpg" alt="사인펜 351"></a>
+                            <p><span class="sub-text">수성마카</span><br><span class="main-text">사인펜 351</span></p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/2040001251_file6_1680847414ct2admfinw.jpg" alt="사인펜 슈퍼 12색"></a>
+                            <p><span class="sub-text">수성마카</span><br><span class="main-text">사인펜 슈퍼 12색</span></p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/2080154201_file6_1510710286w4nihpjbrq.jpg" alt="데코마카 463"></a>
+                            <p><span class="sub-text">생활마카</span><br><span class="main-text">데코마카 463</span></p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/2080154101_file6_15106632004516xft8i0.jpg" alt="데코마카 460"></a>
+                            <p><span class="sub-text">생활마카</span><br><span class="main-text">데코마카 460</span></p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/2040004209_file6_1613459027y841zsfk12.jpg" alt="붓펜"></a>
+                            <p><span class="sub-text">수성마카</span><br><span class="main-text">붓펜</span></p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/2080151026_file6_151066220247q1cybrkr.jpg" alt="키친마카 420"></a>
+                            <p><span class="sub-text">생활마카</span><br><span class="main-text">키친마카 420</span></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="pro-middle swiper mySwiper mySwiper3">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/2060064323_file6_1636340558w5g3jvb5ke.jpg" alt="에센티 트윈"></a>
+                            <p><span class="sub-text">형광펜</span><br><span class="main-text">에센티 트윈</span></p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/2060064301_file6_1510656159c09i4wzeqa.jpg" alt="에센티 브라이트 / 소프트"></a>
+                            <p><span class="sub-text">형광펜</span><br><span class="main-text">에센티 브라이트 / 소프트</span></p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/2060072001_file6_1510655846ba5524yez1.jpg" alt="에센티스틱 브라이트 / 소프트"></a>
+                            <p><span class="sub-text">형광펜</span><br><span class="main-text">에센티스틱 브라이트 / 소프트</span></p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/2060067005_file6_1510655117e6f5plh5wu.jpg" alt="에딩 슈퍼 형광펜 600"></a>
+                            <p><span class="sub-text">형광펜</span><br><span class="main-text">에딩 슈퍼 형광펜 600</span></p>
+                        </li>
+                    </ul>
+                </div>
+                <div id="tras" class="pro-middle swiper mySwiper mySwiper4">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/2170001334_file6_1523248839zec883ldj9.jpg" alt="크레파스_모니주(옐로우)"></a>
+                            <p><span class="sub-text">크레파스</span><br><span class="main-text">크레파스_모니주(옐로우)</span></p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/2170001335_file6_1523248634tsel5la94n.jpg" alt="크레파스_모니주(핑크)"></a>
+                            <p><span class="sub-text">크레파스</span><br><span class="main-text">크레파스_모니주(핑크)</span></p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/2170001336_file6_152324853466hf5gfimx.jpg" alt="크레파스_모니주(블루)"></a>
+                            <p><span class="sub-text">크레파스</span><br><span class="main-text">크레파스_모니주(블루)</span></p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/2170001301_file6_1523248406vbaq8g2od3.jpg" alt="종이말이 색연필_모니주(블루/핑크)"></a>
+                            <p><span class="sub-text">색연필</span><br><span class="main-text">종이말이 색연필_모니주<br>(블루/핑크)</span></p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/2170001305_file6_1523248115uka6e37m7v.jpg" alt="연필_모니주(오렌지/핑크/퍼플)"></a>
+                            <p><span class="sub-text">연필</span><br><span class="main-text">연필_모니주(오렌지/핑크/퍼플)</span></p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/2170001306_file6_152324802572hr796g86.jpg" alt="연필_모니주(그린/블루)"></a>
+                            <p><span class="sub-text">연필</span><br><span class="main-text">연필_모니주(그린/블루)</span></p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/2170001320_file6_1523247762qj1v86clpg.jpg" alt="샤프식 색연필_모니주(블루/핑크)"></a>
+                            <p><span class="sub-text">샤프식 색연필</span><br><span class="main-text">샤프식 색연필_모니주<br>(블루/핑크)</span></p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/2170001323_file6_1523247404kca985sswv.jpg" alt="모니주 사인펜(핑크/블루)"></a>
+                            <p><span class="sub-text">사인펜</span><br><span class="main-text">모니주 사인펜(핑크/블루)</span></p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/2170001315_file6_1523247231qfilsm5mlv.jpg" alt="그림물감_모니주(핑크)"></a>
+                            <p><span class="sub-text">그림물감</span><br><span class="main-text">그림물감_모니주(핑크)</span></p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/2170001316_file6_1523247076ikq72ezudi.jpg" alt="그림물감_모니주(블루)"></a>
+                            <p><span class="sub-text">그림물감</span><br><span class="main-text">그림물감_모니주(블루)</span></p>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#"><img src="images/2160015001_file6_1510658954avxk605i2z.jpg" alt="바우하우스 색연필"></a>
+                            <p><span class="sub-text">색연필</span><br><span class="main-text">바우하우스 색연필</span></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="scroll">
+                    <div class="icon">
+                        <div class="icon-left">
+                            <img src="images/p_arr1.gif" alt="left">
+                        </div>
+                        <div class="icon-middle">
+                            <img src="images/p_cursor.gif" alt="cursor">
+                            <p>DRAG & SCROLL</p>
+                        </div>
+                        <div class="icon-right">
+                            <img src="images/p_arr2.gif" alt="right">
+                        </div>
+                    </div>
+                </div>
+                <div class="pro-bottom2">
+                    <video src="images/monami_brand_web_60.mp4" type="video/mp4" autoplay muted loop></video>
+                </div>
+            </div>
+            <section>
+                <div class="section-c">
+                    <div class="news">
+                        <ul class="news-top">
+                            <li><h2>monami news</h2></li>
+                            <li><a href="#">more</a></li>
+                        </ul>
+                        <ul class="news-middle">
+                            <li><a href="#"><img src="images/b_file_16910207859oz26wygj6.jpg" alt="news"></a></li>
+                            <li>
+                                <div class="news-text">
+                                    <p class="news-title">모나미 ‘제2회 프러스펜 아트 콘테스트’ 수..</p>
+                                    <p>
+                                        모나미 ‘제2회 프러스펜 아트 콘테스트’ 수상작 발표- 한달간 1,000여 점 작품<br>
+                                        응모…대상에 ‘녹음 속 여정’ ..
+                                    </p>
+                                </div>
+                                <p class="date-p">
+                                    <span class="date">2023-08-03</span>
+                                </p>
+                            </li>
+                        </ul>
+                        <span class="line"></span>
+                        <ul class="news-bottom">
+                            <ul>
+                                <li><a href="#">- 모나미, 브랜드 서포터즈 ‘펜클럽(Pen Club)’ 6기 모집</a></li>
+                                <li><span class="date">2023-07-26</span></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">- 모나미 ‘제46회 모나미 모나르떼 어린이 미술대회’ 개최</a></li>
+                                <li><span class="date">2023-07-18</span></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">- 모나미, 유럽 감성 담은 ‘제니스7 샤프’ 신제품 출시</a></li>
+                                <li><span class="date">2023-07-10</span></li>
+                            </ul>
+                        </ul>
+                    </div>
+                    <div class="inquiry">
+                        <img src="images/inquiry_tit_bg.png" alt="">
+                        <h2>INQUIRY</h2>
+                        <p>언제나 소중한 의견에 귀 기울이겠습니다.<br>
+                            궁금한 사항은 문의하세요.</p>
+                        <button>INQUIRY NOW</button>
+                    </div>
+                    <div class="shop"></div>
+                </div>
+            </section>
+            <div class="banner">
+                <div class="inner">
+                    <ul>
+                        <li><a href="#"><img src="images/fam_img1.jpg" alt="fam_img1"></a></li>
+                        <li><a href="#"><img src="images/fam_img6.jpg" alt="fam_img6"></a></li>
+                        <li><a href="#"><img src="images/fam_img5.jpg" alt="fam_img5"></a></li>
+                        <li><a href="#"><img src="images/fam_img2.jpg" alt="fam_img2"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="foot-wrap">
+                <div class="foot-top">
+                    <img src="images/foot_logo.jpg" alt="logo">
+                    <ul>
+                        <li><a href="#">회사소개</a></li>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">이메일무단수집거부</a></li>
+                    </ul>
+                </div>
+                <span class="foot-line"></span>
+                <div class="foot-bottom">
+                    <div class="A">
+                        <div class="foot-bottom-left">
+                            <p class="info">INFO</p>
+                            <ul class="address">
+                                <li><p>ADDRESS : 경기도 용인시 수지구 손곡로 17</p></li>
+                                <li><p>TEL : 031-216-0153</p></li>
+                                <li><p>FAX : 031-270-5154</p></li>
+                            </ul>
+                            <p class="copyright">
+                                COPYRIGHT(C) 2017 MONAMI.CO.,LTD. ALL RIGHTS RESERVED.
+                            </p>
+                        </div>
+                        <div class="foot-bottom-center">
+                            <p class="cc">CUSTOMER CENTER</p>
+                            <p class="number">080-022-0153</p>
+                        </div>
+                        <div class="foot-bottom-right">
+                            <a href="#"><span>FAMILY SITE</span></a>
+                            <a href="#"><img src="images/family_arr.png" alt="arr"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="pop-btn">
+            <div class="btn">
+                <div class="btn-box-p">
+                    <div class="btn-box">
+                        <a href="#">예약하기</a>
+                        <a href="#"><img src="images/l-popup__icon.png" alt="l-popup__icon"></a>
+                    </div>
+                    <img src="images/l-popup__button--close.png" alt="l-popup__button--close" class="close-btn">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
