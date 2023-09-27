@@ -135,7 +135,7 @@ $(function () {
       display: "none",
     });
     $("#part3 div.one .bottom .back-img .back-img-inner2").css({
-      background: "url(../images/bia_safari_large.jpg)",
+      background: "url(images/bia_safari_large.jpg)",
       transition: "0.5s",
     });
     $("#part3 div.one div.bottom div.desc1").css({
@@ -153,7 +153,7 @@ $(function () {
       display: "none",
     });
     $("#part3 div.one .bottom .back-img .back-img-inner2").css({
-      background: "url(../images/bia_photos_large.jpg)",
+      background: "url(images/bia_photos_large.jpg)",
       transition: "0.5s",
     });
     $("#part3 div.one div.bottom div.desc2").css({
@@ -171,7 +171,7 @@ $(function () {
       display: "none",
     });
     $("#part3 div.one .bottom .back-img .back-img-inner2").css({
-      background: "url(../images/bia_imovie_large.jpg)",
+      background: "url(images/bia_imovie_large.jpg)",
       transition: "0.5s",
     });
     $("#part3 div.one div.bottom div.desc3").css({
@@ -189,7 +189,7 @@ $(function () {
       display: "none",
     });
     $("#part3 div.one .bottom .back-img .back-img-inner2").css({
-      background: "url(../images/bia_garageband_large.jpg)",
+      background: "url(images/bia_garageband_large.jpg)",
       transition: "0.5s",
     });
     $("#part3 div.one div.bottom div.desc4").css({
@@ -207,7 +207,7 @@ $(function () {
       display: "none",
     });
     $("#part3 div.one .bottom .back-img .back-img-inner2").css({
-      background: "url(../images/bia_pages_large.jpg)",
+      background: "url(images/bia_pages_large.jpg)",
       transition: "0.5s",
     });
     $("#part3 div.one div.bottom div.desc5").css({
@@ -225,7 +225,7 @@ $(function () {
       display: "none",
     });
     $("#part3 div.one .bottom .back-img .back-img-inner2").css({
-      background: "url(../images/bia_numbers_large.jpg)",
+      background: "url(images/bia_numbers_large.jpg)",
       transition: "0.5s",
     });
     $("#part3 div.one div.bottom div.desc6").css({
@@ -243,7 +243,7 @@ $(function () {
       display: "none",
     });
     $("#part3 div.one .bottom .back-img .back-img-inner2").css({
-      background: "url(../images/bia_keynote_large.jpg)",
+      background: "url(images/bia_keynote_large.jpg)",
       transition: "0.5s",
     });
     $("#part3 div.one div.bottom div.desc7").css({
