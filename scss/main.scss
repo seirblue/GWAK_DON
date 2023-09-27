@@ -8,10 +8,16 @@
   font-style: normal;
 }
 // Break Point
+$min: 429px;
 $mobile: 767px;
 $tablet: 768px;
 $laptop: 1020px;
 $desktop: 1400px;
+@mixin min {
+  @media (max-width: #{$min}) {
+    @content;
+  }
+}
 @mixin mobile {
   @media (max-width: #{$mobile}) {
     @content;
@@ -677,6 +683,11 @@ body {
           }
         }
         .desc {
+          @include min(){
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+          }
           @include tablet() {
             width: fit-content;
             margin: 0 auto;
@@ -701,6 +712,11 @@ body {
               &:hover {
                 text-decoration: underline;
               }
+            }
+            @include min(){
+              display: flex;
+              flex-direction: column;
+              gap: 10px;
             }
             @include mobile() {
               p.one {
@@ -731,6 +747,11 @@ body {
                 text-decoration: underline;
               }
             }
+            @include min(){
+              display: flex;
+              flex-direction: column;
+              gap: 10px;
+            }
             @include mobile() {
               p.one {
                 font-size: 20px;
@@ -759,23 +780,14 @@ body {
             color: rgba(0, 0, 0, 0.4);
             font-weight: bold;
             transition: 0.4s;
-          }
-          p.one,
-          p.two {
             @include mobile() {
               font-size: 18px;
               color: rgba(0, 0, 0, 0.4);
             }
-          }
-          p.one,
-          p.two {
             @include tablet() {
               font-size: 20px;
               color: rgba(0, 0, 0, 0.4);
             }
-          }
-          p.one,
-          p.two {
             @include laptop() {
               font-size: 26px;
               color: rgba(0, 0, 0, 0.4);
