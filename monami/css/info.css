@@ -322,6 +322,7 @@ nav div.bg.on {
   border: 1px solid #ddd;
   text-align: center;
   cursor: pointer;
+  text-wrap: nowrap;
 }
 #visual {
   width: 100%;
