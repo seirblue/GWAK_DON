@@ -990,10 +990,11 @@ span.show {
   height: fit-content;
 }
 #part3 div.one .bottom .desc {
-  width: 55%;
+  width: fit-content;
   margin: 0 auto;
   text-align: center;
   font-size: 15px;
+  text-wrap: nowrap;
 }
 #part3 div.one .bottom .desc p:first-child {
   margin: 20px 0;
@@ -1095,10 +1096,11 @@ span.show {
   height: fit-content;
 }
 #part3 div.two .bottom .desc {
-  width: 55%;
+  width: fit-content;
   margin: 0 auto;
   text-align: center;
   font-size: 15px;
+  text-wrap: nowrap;
 }
 #part3 div.two .bottom .desc p:first-child {
   margin: 20px 0;

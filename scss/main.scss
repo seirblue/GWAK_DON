@@ -545,6 +545,9 @@ body {
             @include min() {
               font-size: 16px !important;
             }
+            @include laptop(){
+              text-wrap: nowrap;
+            }
             span.highlight {
               font-size: 22px;
               font-weight: 600;
