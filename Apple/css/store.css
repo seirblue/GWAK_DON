@@ -1,5 +1,16 @@
 @charset "utf-8";
-
+@font-face{
+  font-family: "SF-Pro-Display";
+  src: url(../webfonts/SF-Pro-Display-Regular.otf) format("otf");
+}
+@font-face{
+  font-family: "SF-Pro-Text";
+  src: url(../webfonts/SF-Pro-Text-Regular.otf) format("otf");
+}
+@font-face{
+  font-family: "SF-Pro-Rounded";
+  src: url(../webfonts/SF-Pro-Rounded-Regular.otf) format("otf");
+}
 * {
   margin: 0;
   padding: 0;
