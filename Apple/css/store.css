@@ -215,7 +215,7 @@ header .top ul li a:hover {
   color: rgba(0, 0, 0, 0);
 }
 .sub-menu {
-  position: absolute;
+  position: fixed;
   width: 100%;
   height: 0;
   left: 0;
