@@ -112,9 +112,9 @@ header .top .top-banner a {
   color: #fff;
 }
 .sub-menu {
+  display: none;
   position: fixed;
   width: 100%;
-  height: 0;
   left: 0;
   /* top: 50px; */
   background: #000;
@@ -181,7 +181,7 @@ header .top .top-banner a {
 }
 .on { 
   filter: saturate(180%) blur(15px) brightness(60%);
-  transition: 0.5s;
+  transition: 1s;
 }
 /* .sub-menu .lnb ul.others li a{
   font-size: 24px;
