@@ -35,7 +35,7 @@ header .top .top-menu {
   top: 0;
   backdrop-filter: blur(30px);
   background: rgba(22, 22, 23, 0.8);
-  transition: 0.5s;
+  /* transition: 0.5s; */
   z-index: 50;
 }
 header .top .top-menu a.logo {
@@ -120,7 +120,7 @@ header .top .top-banner a {
   background: #000;
   backdrop-filter: saturate(180%) blur(30px);
   overflow: hidden;
-  transition: height 0.5s;
+  /* transition: height 0.5s; */
   box-shadow: 2px 5px 50px rgba(0, 0, 0, 0.6);
   /* margin-top: 2px; */
   /* padding: 60px 0; */
