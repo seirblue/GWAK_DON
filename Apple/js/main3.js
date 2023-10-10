@@ -26,7 +26,7 @@ $(function () {
         $(wrap).stop().addClass("on")
     },
     function () {
-        $(submenu).stop().slideUp(1000);
+        $(submenu).stop().slideUp(500);
         /* $(submenu).animate(500,'linear'); */
         /* $(wrap).removeClass("on") */
     }
