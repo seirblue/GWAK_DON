@@ -27,10 +27,6 @@ $(function () {
     function () {
       $(submenu).stop().slideUp(500);
       $(wrap).stop().removeClass("on");
-      /* if ($(wrap).hasClass("on")) {
-      } else {
-        $(wrap).addClass("on");
-      } */
     }
   );
   $(submenu).hover(
